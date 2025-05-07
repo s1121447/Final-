@@ -31,7 +31,7 @@ namespace Final
             {
                 new Product { Name = "純白T-shirt", Description = "100% 純棉，非常舒適", Price = 399, Image = Properties.Resources.WhiteTshirt },
                 new Product { Name = "黑色上衣", Description = "黑色純棉 T 恤", Price = 449, Image = Properties.Resources.blackTshirt },
-                new Product { Name = "布料圍巾", Description = "柔軟圍巾", Price = 299, Image = Properties.Resources.blackcloth },
+                new Product { Name = "布料圍巾", Description = "柔軟黑衣", Price = 299, Image = Properties.Resources.blackcloth },
                 new Product { Name = "韓系短版上衣", Description = "時尚短版女裝上衣", Price = 499, Image = Properties.Resources.girl }
             };
             mapping = new Dictionary<PictureBox, Product>();
@@ -121,6 +121,11 @@ namespace Final
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
 
         }
